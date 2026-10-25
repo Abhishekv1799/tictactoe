@@ -1,0 +1,40 @@
+:root {
+  --bg: #0e1726;
+  --card: #16233a;
+  --card-2: #1c2d49;
+  --line: #2a3c5c;
+  --text: #eef3fb;
+  --muted: #9aaac4;
+  --chalk: #c9d6ec;
+  --x: #ffc83d;
+  --o: #38d9c8;
+  --x-soft: rgba(255, 200, 61, 0.16);
+  --o-soft: rgba(56, 217, 200, 0.16);
+  --danger-bg: #3a1d24;
+  --danger-ink: #ffb4a8;
+  --font: "Avenir Next", "Segoe UI Variable", "Segoe UI", system-ui, sans-serif;
+  color-scheme: dark;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html, body { margin: 0; min-height: 100%; }
+
+body {
+  background:
+    radial-gradient(900px 500px at 50% -10%, #1b2f52 0%, transparent 70%),
+    var(--bg);
+  background-attachment: fixed;
+  color: var(--text);
+  font-family: var(--font);
+  font-size: 16px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+button { font: inherit; color: inherit; }
+
+button:focus-visible {
+  outline: 3px solid #fff;
+  outline-offset: 2px;
+}

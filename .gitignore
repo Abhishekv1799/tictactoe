@@ -1,0 +1,12 @@
+# .NET
+bin/
+obj/
+*.db
+*.db-shm
+*.db-wal
+.vs/
+
+# Angular / Node
+node_modules/
+dist/
+.angular/
